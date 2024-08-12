@@ -22,3 +22,5 @@ class Printer:
             if chunk != '':
                 self.printer.imprimir(chunk)
                 self.printer.cortar()
+
+        self.printer.apagar()
